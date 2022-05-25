@@ -1,0 +1,5 @@
+#!/bin/bash
+echo $0
+abs_path=$(realpath $0)
+dir_path=$(dirname $abs_path)
+echo $dir_path
